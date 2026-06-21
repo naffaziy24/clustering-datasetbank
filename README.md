@@ -7,7 +7,6 @@ Proyek ini bertujuan melakukan **segmentasi transaksi nasabah bank** menggunakan
 
 Analisis dilakukan pada dataset transaksi perbankan berskala besar dengan lebih dari **1 juta data transaksi**, melalui tahapan **data preprocessing, exploratory data analysis (EDA), clustering, evaluasi model, dan interpretasi bisnis**.
 
-
 ## 🎯 Permasalahan Bisnis
 
 Perbankan menghasilkan data transaksi dalam jumlah besar setiap hari. Namun, tanpa segmentasi yang tepat, perusahaan akan kesulitan untuk:
@@ -18,8 +17,6 @@ Perbankan menghasilkan data transaksi dalam jumlah besar setiap hari. Namun, tan
 - Memahami pola aktivitas transaksi berdasarkan karakteristik nasabah
 
 Melalui pendekatan clustering, data transaksi dapat dikelompokkan menjadi beberapa segmen yang memiliki karakteristik serupa.
-
----
 
 ## 🎯 Tujuan Proyek
 
@@ -119,14 +116,12 @@ Melakukan analisis karakteristik setiap cluster untuk menghasilkan insight bisni
 | Cluster 2 | Frekuensi tinggi, nilai tinggi | Nasabah bernilai tinggi |
 | Cluster 3 | Frekuensi rendah, nilai rendah | Segmen pengembangan |
 
-
 ## 🔍 Insight Utama
 
 - **Cluster 2** menjadi kelompok dengan potensi bisnis tertinggi karena memiliki frekuensi dan nilai transaksi terbesar.
 - Pola segmentasi lebih dipengaruhi oleh perilaku transaksi dibanding sektor bisnis.
 - Algoritma K-Means menunjukkan performa yang efisien untuk pengolahan data berskala besar.
 - Distribusi cluster yang seimbang menunjukkan hasil segmentasi yang stabil.
-
 
 ## 📈 Evaluasi Model
 
