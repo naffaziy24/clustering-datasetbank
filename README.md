@@ -1,4 +1,3 @@
-# clustering-datasetbank
 
 # Segmentasi Transaksi Nasabah Bank Menggunakan K-Means Clustering
 
@@ -8,7 +7,6 @@ Proyek ini bertujuan melakukan **segmentasi transaksi nasabah bank** menggunakan
 
 Analisis dilakukan pada dataset transaksi perbankan berskala besar dengan lebih dari **1 juta data transaksi**, melalui tahapan **data preprocessing, exploratory data analysis (EDA), clustering, evaluasi model, dan interpretasi bisnis**.
 
----
 
 ## 🎯 Permasalahan Bisnis
 
@@ -30,7 +28,6 @@ Melalui pendekatan clustering, data transaksi dapat dikelompokkan menjadi bebera
 - Mengevaluasi performa algoritma pada dataset berukuran besar
 - Menghasilkan insight yang dapat digunakan dalam strategi bisnis
 
----
 
 ## 📂 Dataset
 
@@ -56,7 +53,6 @@ Melalui pendekatan clustering, data transaksi dapat dikelompokkan menjadi bebera
 | Value | Total nilai transaksi |
 | Transaction Count | Jumlah transaksi |
 
----
 
 ## 🛠️ Tools & Teknologi
 
@@ -77,7 +73,6 @@ Melalui pendekatan clustering, data transaksi dapat dikelompokkan menjadi bebera
 - Google Colab
 - Jupyter Notebook
 
----
 
 ## 🔄 Metodologi
 
@@ -109,7 +104,6 @@ Evaluasi dilakukan menggunakan:
 ### 5. Interpretasi Hasil
 Melakukan analisis karakteristik setiap cluster untuk menghasilkan insight bisnis.
 
----
 
 ## 📊 Hasil Analisis
 
@@ -125,7 +119,6 @@ Melakukan analisis karakteristik setiap cluster untuk menghasilkan insight bisni
 | Cluster 2 | Frekuensi tinggi, nilai tinggi | Nasabah bernilai tinggi |
 | Cluster 3 | Frekuensi rendah, nilai rendah | Segmen pengembangan |
 
----
 
 ## 🔍 Insight Utama
 
@@ -134,7 +127,6 @@ Melakukan analisis karakteristik setiap cluster untuk menghasilkan insight bisni
 - Algoritma K-Means menunjukkan performa yang efisien untuk pengolahan data berskala besar.
 - Distribusi cluster yang seimbang menunjukkan hasil segmentasi yang stabil.
 
----
 
 ## 📈 Evaluasi Model
 
@@ -145,63 +137,3 @@ Melakukan analisis karakteristik setiap cluster untuk menghasilkan insight bisni
 | Evaluasi | Elbow Method & DBI |
 | Visualisasi | PCA |
 
----
-
-## 📁 Struktur Repository
-
-```plaintext
-bank-customer-segmentation/
-│
-├── data/
-├── notebook/
-├── images/
-├── report/
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 🚀 Cara Menjalankan
-
-1. Clone repository
-
-```bash
-git clone https://github.com/username/repository-name.git
-```
-
-2. Install dependency
-
-```bash
-pip install pandas numpy scikit-learn matplotlib
-```
-
-3. Jalankan notebook
-
-```bash
-jupyter notebook
-```
-
----
-
-## 💡 Pengembangan Selanjutnya
-
-- Membandingkan K-Means dengan DBSCAN dan Hierarchical Clustering
-- Menambahkan fitur perilaku nasabah lainnya
-- Membuat dashboard interaktif
-- Melakukan deployment model
-
----
-
-## 📚 Skill yang Ditunjukkan
-
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Data Preprocessing
-- Machine Learning
-- Customer Segmentation
-- Data Visualization
-- Business Analytics
-- Cluster Evaluation
-
----
